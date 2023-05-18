@@ -275,7 +275,7 @@ hr {
   align-items: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   #aboutgrid {
     display: grid;
     grid-template-columns: 1fr;
@@ -318,7 +318,7 @@ hr {
   background: #394867;
 }
 .form{
-  background: #7f8694;
+  background: #434548;
   height: 55%;
   width: 350px;
   z-index: 999;
@@ -333,7 +333,7 @@ input,textarea{
   width: 280px;
   padding: 5px;
   margin: 10px 0;
-  background:#F1F6F9;
+  background:#d6e1ea;
   border: none;
   border-radius: 5px;
   font-family: "popins", sans-serif;

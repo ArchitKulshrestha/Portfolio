@@ -10,12 +10,15 @@
   <title>ArchitKulshrestha</title>
 
 
-  <!-- Required meta tags -->
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Poppins:wght@200;300;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap"
@@ -26,12 +29,13 @@
 
   <link rel="stylesheet" href="css/owl.carousel.min.css">
 
-  <!-- Bootstrap CSS -->
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <!-- Style -->
+
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
 
 </head>
@@ -86,8 +90,9 @@
   <section class="home" id="home">
     <div class="container" id="hero">
 
-      <h1><span>I am </span>Archit Kulshrestha</h1>
-      <p> I design <span class="and">&</span> develop</p>
+      <h1><span class="I">I am </span>Archit Kulshrestha</h1>
+      <span id="element"></span>
+
       <hr>
     </div>
 
@@ -121,14 +126,13 @@
           </p>
           <p>
 
-            As a web developer, I am well-versed in HTML, CSS, JavaScript .I have a keen eye for design, ensuring that
-            every website I create is visually appealing,user-friendly, and responsive.
+            As a web developer,I am well-versed in HTML,CSS,JavaScript.I have a keen eye for design,ensuring that
+            every website I create is visually appealing,user-friendly,and responsive.
           </p>
           <p>
 
-            When I'm not diving into code, you'll find me fully immersed in the world of gaming. I am an avid gamer .
-            This
-            passion fuels my creativity,allowing me to approach my life from a unique perspective.
+            When I'm not diving into code,you'll find me fully immersed in the world of gaming.I am an avid gamer.
+            This passion fuels my creativity,allowing me to approach my life from a unique perspective.
           </p>
           <p>
 
@@ -196,7 +200,12 @@
 
     </div>
   </section>
-  <section class="contactform" id="contact">
+  <section class="contactme" id="contact">
+    <div>
+      <h1>
+        Contact <span>Me</span>
+      </h1>
+    </div>
     <div class="form">
       <form action="mailto:archit499kul@gmail.com" method="post" enctype="text/plain">
         <div class="input_method">
@@ -208,21 +217,19 @@
         <div class="input_method">
           <textarea name="Your_Message" id="" cols="25" rows="4" placeholder="Message"></textarea>
         </div>
-        <button class="button-8"type="submit">Submit</button>
-        
+        <button class="button-8" type="submit">Submit</button>
+
       </form>
     </div>
   </section>
-  <section class="footer">
-    <div>
-      <p>
-        Still working on this
-      </p>
-      <p>
-        ArchitKulshrestha
-      </p>
-    </div>
-  </section>
+
+
+
+
+
+
+
+
 
 
   <script src="js/jquery-3.3.1.min.js"></script>
@@ -230,6 +237,12 @@
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.sticky.js"></script>
   <script src="js/main.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Coder', 'Designer', 'Gamer'],
+      typeSpeed: 60,
+    });
+  </script>
 </body>
 
 </html>
